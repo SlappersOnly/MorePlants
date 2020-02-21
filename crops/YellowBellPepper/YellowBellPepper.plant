@@ -1,0 +1,290 @@
+{
+  "categories": [
+    "plant",
+    "yellow",
+    "seed",
+    "gem",
+    "crop"
+  ],
+  "code": "mod.MorePlants.Crop.YellowBellPepper",
+  "icon": "mods/MorePlants/crops/YellowBellPepper/YellowBellPepperSeedPacket.qb",
+  "inHandOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "inHandRotation": {
+    "x": 0.0,
+    "y": 1.54,
+    "z": -1.54
+  },
+  "pricing": {
+    "buyable": false,
+    "catalogueUnlockedFromStart": false,
+    "sellPrice": 12,
+    "value": 60
+  },
+  "searchable": true,
+  "seasons": [
+    "spring",
+    "summer",
+    "winter",
+    "autumn"
+  ],
+  "stages": {
+  "seed": {
+    "alt": 0,
+    "grow": "YellowBellPepperSprout1",
+    "growWindow": {
+      "x": 1,
+      "y": 1
+    },
+    "shovelable": {}
+  },
+    "YellowBellPepperSprout1": {
+      "alt": 1,
+      "grow": "YellowBellPepperSprout2",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "wilted": "YellowBellPepperWilted1",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "YellowBellPepperSprout2": {
+      "alt": 2,
+      "grow": "YellowBellPepperSprout3",
+      "growWindow": {
+        "x": 2,
+        "y": 2
+      },
+      "scytheable": {},
+      "wilted": "YellowBellPepperWilted2",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "YellowBellPepperSprout3": {
+      "alt": 3,
+      "grow": "YellowBellPepperSprout4",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "wilted": "YellowBellPepperWilted3",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "YellowBellPepperSprout4": {
+      "alt": 4,
+      "grow": "YellowBellPepperSprout5",
+      "growWindow": {
+        "x": 2,
+        "y": 2
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "wilted": "YellowBellPepperWilted4",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "YellowBellPepperSprout5": {
+      "alt": 5,
+      "grow": "YellowBellPepperSprout6",
+      "growWindow": {
+        "x": 2,
+        "y": 2
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "wilted": "YellowBellPepperWilted5",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "YellowBellPepperSprout6": {
+      "alt": 6,
+      "grow": "YellowBellPepperFruited",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "wilted": "YellowBellPepperWilted6",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "YellowBellPepperFruited": {
+      "alt": 7,
+      "interactionEntityAction": "staxel.entityAction.HarvestPullable",
+      "offset": {
+        "x": 0.0,
+        "y": 0.5,
+        "z": 0.0
+      },
+      "particles": "staxel.particle.harvest.PickCrops",
+      "pickEntirely": true,
+      "pickedTreasure": "mod.MorePlants.treasure.YellowBellPepperHarvest",
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "wilted": "YellowBellPepperWiltedFruited",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "YellowBellPepperWilted1": {
+      "alt": 8,
+      "grow": "YellowBellPepperSprout1",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "withered": "YellowBellPepperWithered1",
+      "witheredWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "YellowBellPepperWilted2": {
+      "alt": 9,
+      "grow": "YellowBellPepperSprout2",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "withered": "YellowBellPepperWithered2",
+      "witheredWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "YellowBellPepperWilted3": {
+      "alt": 10,
+      "grow": "YellowBellPepperSprout3",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "withered": "YellowBellPepperWithered3",
+      "witheredWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "YellowBellPepperWilted4": {
+      "alt": 11,
+      "grow": "YellowBellPepperSprout4",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "withered": "YellowBellPepperWithered4",
+      "witheredWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "YellowBellPepperWilted5": {
+      "alt": 12,
+      "grow": "YellowBellPepperSprout5",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "withered": "YellowBellPepperWithered5",
+      "witheredWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "YellowBellPepperWilted6": {
+      "alt": 13,
+      "grow": "YellowBellPepperSprout6",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "withered": "YellowBellPepperWithered6",
+      "witheredWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "YellowBellPepperWiltedFruited": {
+      "alt": 14,
+      "grow": "YellowBellPepperFruited",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "withered": "YellowBellPepperWitheredFruited",
+      "witheredWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "YellowBellPepperWithered1": {
+      "alt": 15,
+      "scytheable": {}
+    },
+    "YellowBellPepperWithered2": {
+      "alt": 16,
+      "scytheable": {}
+    },
+    "YellowBellPepperWithered3": {
+      "alt": 17,
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle"
+    },
+    "YellowBellPepperWithered4": {
+      "alt": 18,
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle"
+    },
+    "YellowBellPepperWithered5": {
+      "alt": 19,
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle"
+    },
+    "YellowBellPepperWithered6": {
+      "alt": 20,
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle"
+    },
+    "YellowBellPepperWitheredFruited": {
+      "alt": 21,
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle"
+  },
+  },
+  "tile": "mod.MorePlants.Plant.Crop.YellowBellPepper"
+
+}

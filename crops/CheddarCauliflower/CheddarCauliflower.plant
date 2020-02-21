@@ -1,0 +1,289 @@
+{
+  "categories": [
+    "plant",
+    "yellow",
+    "seed",
+    "gem",
+    "crop"
+  ],
+  "code": "mod.MorePlants.Crop.CheddarCauliflower",
+  "icon": "mods/MorePlants/crops/CheddarCauliflower/CheddarCauliflowerSeedPacket.qb",
+  "inHandOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "inHandRotation": {
+    "x": 0.0,
+    "y": 1.54,
+    "z": -1.54
+  },
+  "pricing": {
+    "buyable": false,
+    "catalogueUnlockedFromStart": false,
+    "sellPrice": 12,
+    "value": 60
+  },
+  "searchable": true,
+  "seasons": [
+    "spring",
+    "summer",
+    "winter",
+    "autumn"
+  ],
+  "stages": {
+  "seed": {
+    "alt": 0,
+    "grow": "CheddarCauliflowerSprout1",
+    "growWindow": {
+      "x": 1,
+      "y": 1
+    },
+    "shovelable": {}
+  },
+    "CheddarCauliflowerSprout1": {
+      "alt": 1,
+      "grow": "CheddarCauliflowerSprout2",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "wilted": "CheddarCauliflowerWilted1",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "CheddarCauliflowerSprout2": {
+      "alt": 2,
+      "grow": "CheddarCauliflowerSprout3",
+      "growWindow": {
+        "x": 2,
+        "y": 2
+      },
+      "scytheable": {},
+      "wilted": "CheddarCauliflowerWilted2",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "CheddarCauliflowerSprout3": {
+      "alt": 3,
+      "grow": "CheddarCauliflowerSprout4",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "wilted": "CheddarCauliflowerWilted3",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "CheddarCauliflowerSprout4": {
+      "alt": 4,
+      "grow": "CheddarCauliflowerSprout5",
+      "growWindow": {
+        "x": 2,
+        "y": 2
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "wilted": "CheddarCauliflowerWilted4",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "CheddarCauliflowerSprout5": {
+      "alt": 5,
+      "grow": "CheddarCauliflowerSprout6",
+      "growWindow": {
+        "x": 2,
+        "y": 2
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "wilted": "CheddarCauliflowerWilted5",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "CheddarCauliflowerSprout6": {
+      "alt": 6,
+      "grow": "CheddarCauliflowerFruited",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "wilted": "CheddarCauliflowerWilted6",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "CheddarCauliflowerFruited": {
+      "alt": 7,
+      "interactionEntityAction": "staxel.entityAction.HarvestPullable",
+      "offset": {
+        "x": 0.0,
+        "y": 0.5,
+        "z": 0.0
+      },
+      "particles": "staxel.particle.harvest.PickCrops",
+      "pickEntirely": true,
+      "pickedTreasure": "mod.MorePlants.treasure.CheddarCauliflowerHarvest",
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "wilted": "CheddarCauliflowerWiltedFruited",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "CheddarCauliflowerWilted1": {
+      "alt": 8,
+      "grow": "CheddarCauliflowerSprout1",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "withered": "CheddarCauliflowerWithered1",
+      "witheredWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "CheddarCauliflowerWilted2": {
+      "alt": 9,
+      "grow": "CheddarCauliflowerSprout2",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "withered": "CheddarCauliflowerWithered2",
+      "witheredWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "CheddarCauliflowerWilted3": {
+      "alt": 10,
+      "grow": "CheddarCauliflowerSprout3",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "withered": "CheddarCauliflowerWithered3",
+      "witheredWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "CheddarCauliflowerWilted4": {
+      "alt": 11,
+      "grow": "CheddarCauliflowerSprout4",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "withered": "CheddarCauliflowerWithered4",
+      "witheredWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "CheddarCauliflowerWilted5": {
+      "alt": 12,
+      "grow": "CheddarCauliflowerSprout5",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "withered": "CheddarCauliflowerWithered5",
+      "witheredWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "CheddarCauliflowerWilted6": {
+      "alt": 13,
+      "grow": "CheddarCauliflowerSprout6",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "withered": "CheddarCauliflowerWithered6",
+      "witheredWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "CheddarCauliflowerWiltedFruited": {
+      "alt": 14,
+      "grow": "CheddarCauliflowerFruited",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "withered": "CheddarCauliflowerWitheredFruited",
+      "witheredWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "CheddarCauliflowerWithered1": {
+      "alt": 15,
+      "scytheable": {}
+    },
+    "CheddarCauliflowerWithered2": {
+      "alt": 16,
+      "scytheable": {}
+    },
+    "CheddarCauliflowerWithered3": {
+      "alt": 17,
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle"
+    },
+    "CheddarCauliflowerWithered4": {
+      "alt": 18,
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle"
+    },
+    "CheddarCauliflowerWithered5": {
+      "alt": 19,
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle"
+    },
+    "CheddarCauliflowerWithered6": {
+      "alt": 20,
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle"
+    },
+    "CheddarCauliflowerWitheredFruited": {
+      "alt": 21,
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle"
+  },
+  },
+  "tile": "mod.MorePlants.Plant.Crop.CheddarCauliflower"
+}

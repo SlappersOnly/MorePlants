@@ -1,0 +1,289 @@
+{
+  "categories": [
+    "plant",
+    "yellow",
+    "seed",
+    "gem",
+    "crop"
+  ],
+  "code": "mod.MorePlants.Crop.RomanescoCauliflower",
+  "icon": "mods/MorePlants/crops/RomanescoCauliflower/RomanescoCauliflowerSeedPacket.qb",
+  "inHandOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "inHandRotation": {
+    "x": 0.0,
+    "y": 1.54,
+    "z": -1.54
+  },
+  "pricing": {
+    "buyable": false,
+    "catalogueUnlockedFromStart": false,
+    "sellPrice": 12,
+    "value": 60
+  },
+  "searchable": true,
+  "seasons": [
+    "spring",
+    "summer",
+    "winter",
+    "autumn"
+  ],
+  "stages": {
+  "seed": {
+    "alt": 0,
+    "grow": "RomanescoCauliflowerSprout1",
+    "growWindow": {
+      "x": 1,
+      "y": 1
+    },
+    "shovelable": {}
+  },
+    "RomanescoCauliflowerSprout1": {
+      "alt": 1,
+      "grow": "RomanescoCauliflowerSprout2",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "wilted": "RomanescoCauliflowerWilted1",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "RomanescoCauliflowerSprout2": {
+      "alt": 2,
+      "grow": "RomanescoCauliflowerSprout3",
+      "growWindow": {
+        "x": 2,
+        "y": 2
+      },
+      "scytheable": {},
+      "wilted": "RomanescoCauliflowerWilted2",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "RomanescoCauliflowerSprout3": {
+      "alt": 3,
+      "grow": "RomanescoCauliflowerSprout4",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "wilted": "RomanescoCauliflowerWilted3",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "RomanescoCauliflowerSprout4": {
+      "alt": 4,
+      "grow": "RomanescoCauliflowerSprout5",
+      "growWindow": {
+        "x": 2,
+        "y": 2
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "wilted": "RomanescoCauliflowerWilted4",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "RomanescoCauliflowerSprout5": {
+      "alt": 5,
+      "grow": "RomanescoCauliflowerSprout6",
+      "growWindow": {
+        "x": 2,
+        "y": 2
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "wilted": "RomanescoCauliflowerWilted5",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "RomanescoCauliflowerSprout6": {
+      "alt": 6,
+      "grow": "RomanescoCauliflowerFruited",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "wilted": "RomanescoCauliflowerWilted6",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "RomanescoCauliflowerFruited": {
+      "alt": 7,
+      "interactionEntityAction": "staxel.entityAction.HarvestPullable",
+      "offset": {
+        "x": 0.0,
+        "y": 0.5,
+        "z": 0.0
+      },
+      "particles": "staxel.particle.harvest.PickCrops",
+      "pickEntirely": true,
+      "pickedTreasure": "mod.MorePlants.treasure.RomanescoCauliflowerHarvest",
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "wilted": "RomanescoCauliflowerWiltedFruited",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "RomanescoCauliflowerWilted1": {
+      "alt": 8,
+      "grow": "RomanescoCauliflowerSprout1",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "withered": "RomanescoCauliflowerWithered1",
+      "witheredWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "RomanescoCauliflowerWilted2": {
+      "alt": 9,
+      "grow": "RomanescoCauliflowerSprout2",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "withered": "RomanescoCauliflowerWithered2",
+      "witheredWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "RomanescoCauliflowerWilted3": {
+      "alt": 10,
+      "grow": "RomanescoCauliflowerSprout3",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "withered": "RomanescoCauliflowerWithered3",
+      "witheredWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "RomanescoCauliflowerWilted4": {
+      "alt": 11,
+      "grow": "RomanescoCauliflowerSprout4",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "withered": "RomanescoCauliflowerWithered4",
+      "witheredWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "RomanescoCauliflowerWilted5": {
+      "alt": 12,
+      "grow": "RomanescoCauliflowerSprout5",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "withered": "RomanescoCauliflowerWithered5",
+      "witheredWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "RomanescoCauliflowerWilted6": {
+      "alt": 13,
+      "grow": "RomanescoCauliflowerSprout6",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "withered": "RomanescoCauliflowerWithered6",
+      "witheredWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "RomanescoCauliflowerWiltedFruited": {
+      "alt": 14,
+      "grow": "RomanescoCauliflowerFruited",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "withered": "RomanescoCauliflowerWitheredFruited",
+      "witheredWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "RomanescoCauliflowerWithered1": {
+      "alt": 15,
+      "scytheable": {}
+    },
+    "RomanescoCauliflowerWithered2": {
+      "alt": 16,
+      "scytheable": {}
+    },
+    "RomanescoCauliflowerWithered3": {
+      "alt": 17,
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle"
+    },
+    "RomanescoCauliflowerWithered4": {
+      "alt": 18,
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle"
+    },
+    "RomanescoCauliflowerWithered5": {
+      "alt": 19,
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle"
+    },
+    "RomanescoCauliflowerWithered6": {
+      "alt": 20,
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle"
+    },
+    "RomanescoCauliflowerWitheredFruited": {
+      "alt": 21,
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle"
+  },
+  },
+  "tile": "mod.MorePlants.Plant.Crop.RomanescoCauliflower"
+}

@@ -1,0 +1,13 @@
+{
+  "code": "mod.MorePlants.treasure.RedCarrotHarvest",
+  "entries": [
+    {
+      "weight": 100.0,
+      "items": [
+        {
+          "code": "mod.MorePlants.item.crops.RedCarrot"
+        }
+      ]
+    }
+  ]
+}

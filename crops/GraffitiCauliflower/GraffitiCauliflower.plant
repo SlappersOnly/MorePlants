@@ -1,0 +1,289 @@
+{
+  "categories": [
+    "plant",
+    "yellow",
+    "seed",
+    "gem",
+    "crop"
+  ],
+  "code": "mod.MorePlants.Crop.GraffitiCauliflower",
+  "icon": "mods/MorePlants/crops/GraffitiCauliflower/GraffitiCauliflowerSeedPacket.qb",
+  "inHandOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "inHandRotation": {
+    "x": 0.0,
+    "y": 1.54,
+    "z": -1.54
+  },
+  "pricing": {
+    "buyable": false,
+    "catalogueUnlockedFromStart": false,
+    "sellPrice": 12,
+    "value": 60
+  },
+  "searchable": true,
+  "seasons": [
+    "spring",
+    "summer",
+    "winter",
+    "autumn"
+  ],
+  "stages": {
+  "seed": {
+    "alt": 0,
+    "grow": "GraffitiCauliflowerSprout1",
+    "growWindow": {
+      "x": 1,
+      "y": 1
+    },
+    "shovelable": {}
+  },
+    "GraffitiCauliflowerSprout1": {
+      "alt": 1,
+      "grow": "GraffitiCauliflowerSprout2",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "wilted": "GraffitiCauliflowerWilted1",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "GraffitiCauliflowerSprout2": {
+      "alt": 2,
+      "grow": "GraffitiCauliflowerSprout3",
+      "growWindow": {
+        "x": 2,
+        "y": 2
+      },
+      "scytheable": {},
+      "wilted": "GraffitiCauliflowerWilted2",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "GraffitiCauliflowerSprout3": {
+      "alt": 3,
+      "grow": "GraffitiCauliflowerSprout4",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "wilted": "GraffitiCauliflowerWilted3",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "GraffitiCauliflowerSprout4": {
+      "alt": 4,
+      "grow": "GraffitiCauliflowerSprout5",
+      "growWindow": {
+        "x": 2,
+        "y": 2
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "wilted": "GraffitiCauliflowerWilted4",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "GraffitiCauliflowerSprout5": {
+      "alt": 5,
+      "grow": "GraffitiCauliflowerSprout6",
+      "growWindow": {
+        "x": 2,
+        "y": 2
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "wilted": "GraffitiCauliflowerWilted5",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "GraffitiCauliflowerSprout6": {
+      "alt": 6,
+      "grow": "GraffitiCauliflowerFruited",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "wilted": "GraffitiCauliflowerWilted6",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "GraffitiCauliflowerFruited": {
+      "alt": 7,
+      "interactionEntityAction": "staxel.entityAction.HarvestPullable",
+      "offset": {
+        "x": 0.0,
+        "y": 0.5,
+        "z": 0.0
+      },
+      "particles": "staxel.particle.harvest.PickCrops",
+      "pickEntirely": true,
+      "pickedTreasure": "mod.MorePlants.treasure.GraffitiCauliflowerHarvest",
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "wilted": "GraffitiCauliflowerWiltedFruited",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "GraffitiCauliflowerWilted1": {
+      "alt": 8,
+      "grow": "GraffitiCauliflowerSprout1",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "withered": "GraffitiCauliflowerWithered1",
+      "witheredWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "GraffitiCauliflowerWilted2": {
+      "alt": 9,
+      "grow": "GraffitiCauliflowerSprout2",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "withered": "GraffitiCauliflowerWithered2",
+      "witheredWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "GraffitiCauliflowerWilted3": {
+      "alt": 10,
+      "grow": "GraffitiCauliflowerSprout3",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "withered": "GraffitiCauliflowerWithered3",
+      "witheredWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "GraffitiCauliflowerWilted4": {
+      "alt": 11,
+      "grow": "GraffitiCauliflowerSprout4",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "withered": "GraffitiCauliflowerWithered4",
+      "witheredWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "GraffitiCauliflowerWilted5": {
+      "alt": 12,
+      "grow": "GraffitiCauliflowerSprout5",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "withered": "GraffitiCauliflowerWithered5",
+      "witheredWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "GraffitiCauliflowerWilted6": {
+      "alt": 13,
+      "grow": "GraffitiCauliflowerSprout6",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "withered": "GraffitiCauliflowerWithered6",
+      "witheredWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "GraffitiCauliflowerWiltedFruited": {
+      "alt": 14,
+      "grow": "GraffitiCauliflowerFruited",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "withered": "GraffitiCauliflowerWitheredFruited",
+      "witheredWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "GraffitiCauliflowerWithered1": {
+      "alt": 15,
+      "scytheable": {}
+    },
+    "GraffitiCauliflowerWithered2": {
+      "alt": 16,
+      "scytheable": {}
+    },
+    "GraffitiCauliflowerWithered3": {
+      "alt": 17,
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle"
+    },
+    "GraffitiCauliflowerWithered4": {
+      "alt": 18,
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle"
+    },
+    "GraffitiCauliflowerWithered5": {
+      "alt": 19,
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle"
+    },
+    "GraffitiCauliflowerWithered6": {
+      "alt": 20,
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle"
+    },
+    "GraffitiCauliflowerWitheredFruited": {
+      "alt": 21,
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle"
+  },
+  },
+  "tile": "mod.MorePlants.Plant.Crop.GraffitiCauliflower"
+}

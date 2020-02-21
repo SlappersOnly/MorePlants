@@ -1,0 +1,39 @@
+{
+  "__inherits": "staxel/plant/crop/base.config",
+  "categories": [
+    "crop",
+    "plant",
+    "produce",
+    "growable",
+    "lettuce",
+    "purple",
+    "vegetable",
+    "food"
+  ],
+  "code": "mod.MorePlants.Plant.Crop.YellowCarrot",
+  "searchable": false,
+  "variants": [
+    "mods/MorePlants/crops/YellowCarrot/YellowCarrot.qb?size={16,32,16}?offset={0,0,0}",
+    "mods/MorePlants/crops/YellowCarrot/YellowCarrot.qb?size={16,32,16}?offset={16,0,0}",
+    "mods/MorePlants/crops/YellowCarrot/YellowCarrot.qb?size={16,32,16}?offset={32,0,0}",
+    "mods/MorePlants/crops/YellowCarrot/YellowCarrot.qb?size={16,32,16}?offset={48,0,0}",
+    "mods/MorePlants/crops/YellowCarrot/YellowCarrot.qb?size={16,32,16}?offset={64,0,0}",
+    "mods/MorePlants/crops/YellowCarrot/YellowCarrot.qb?size={16,32,16}?offset={80,0,0}",
+    "mods/MorePlants/crops/YellowCarrot/YellowCarrot.qb?size={16,32,16}?offset={96,0,0}",
+    "mods/MorePlants/crops/YellowCarrot/YellowCarrot.qb?size={16,32,16}?offset={112,0,0}",
+    "mods/MorePlants/crops/YellowCarrot/YellowCarrot.qb?size={16,32,16}?offset={16,0,16}",
+    "mods/MorePlants/crops/YellowCarrot/YellowCarrot.qb?size={16,32,16}?offset={32,0,16}",
+    "mods/MorePlants/crops/YellowCarrot/YellowCarrot.qb?size={16,32,16}?offset={48,0,16}",
+    "mods/MorePlants/crops/YellowCarrot/YellowCarrot.qb?size={16,32,16}?offset={64,0,16}",
+    "mods/MorePlants/crops/YellowCarrot/YellowCarrot.qb?size={16,32,16}?offset={80,0,16}",
+    "mods/MorePlants/crops/YellowCarrot/YellowCarrot.qb?size={16,32,16}?offset={96,0,16}",
+    "mods/MorePlants/crops/YellowCarrot/YellowCarrot.qb?size={16,32,16}?offset={112,0,16}",
+    "mods/MorePlants/crops/YellowCarrot/YellowCarrot.qb?size={16,32,16}?offset={16,0,32}",
+    "mods/MorePlants/crops/YellowCarrot/YellowCarrot.qb?size={16,32,16}?offset={32,0,32}",
+    "mods/MorePlants/crops/YellowCarrot/YellowCarrot.qb?size={16,32,16}?offset={48,0,32}",
+    "mods/MorePlants/crops/YellowCarrot/YellowCarrot.qb?size={16,32,16}?offset={64,0,32}",
+    "mods/MorePlants/crops/YellowCarrot/YellowCarrot.qb?size={16,32,16}?offset={80,0,32}",
+    "mods/MorePlants/crops/YellowCarrot/YellowCarrot.qb?size={16,32,16}?offset={96,0,32}",
+    "mods/MorePlants/crops/YellowCarrot/YellowCarrot.qb?size={16,32,16}?offset={112,0,32}"
+  ]
+}

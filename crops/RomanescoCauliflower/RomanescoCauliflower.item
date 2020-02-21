@@ -1,0 +1,51 @@
+{
+  "__inherits": "staxel/item/edible.config",
+  "categories": [
+    "market",
+    "vegetable",
+    "romanesco",
+    "cauliflower",
+    "choppable",
+    "boilable",
+    "reapable",
+    "mixable",
+    "harvested"
+  ],
+  "code": "mod.MorePlants.item.crops.RomanescoCauliflower",
+  "eatTime": 1,
+  "feederHelper": {
+    "canReplace": [
+      {
+        "from": "staxel.tileObject.animalFurniture.SlopTroughEmpty",
+        "to": "staxel.tileObject.animalFurniture.SlopTroughFeed"
+      }
+    ],
+    "feedAmount": 8
+  },
+  "icon": "mods/MorePlants/crops/RomanescoCauliflower/RomanescoCauliflowerItem.qb",
+  "inHand": "mods/MorePlants/crops/RomanescoCauliflower/RomanescoCauliflowerItem.qb",
+  "inHandOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "inHandRotation": {
+    "x": 0.0,
+    "y": 1.54,
+    "z": -1.54
+  },
+  "isDockable": true,
+  "kind": "staxel.item.CraftItem",
+  "pricing": {
+    "buyable": true,
+    "catalogueUnlockedFromStart": true,
+    "sellPrice": 210,
+    "value": 350
+  },
+  "searchable": true,
+  "usageOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  }
+}
